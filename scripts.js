@@ -75,16 +75,19 @@
     function setPause() {
         let complexity = document.getElementById("complexity");
         switch (complexity.value) {
-            case "Easy":
+            case "Я пабедю!":
+                pause = 400;
+                break;
+            case "Ну, погоди!!!":
                 pause = 250;
                 break;
-            case "Medium":
+            case "Кто на меня?":
                 pause = 200;
                 break;
-            case "Hard":
-                pause = 100;
+            case "Хардкор":
+                pause = 150;
                 break;
-            case "Unreal":
+            case "Кошмар":
                 pause = 0;
         }
     }
