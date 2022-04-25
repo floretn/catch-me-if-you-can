@@ -2,7 +2,7 @@
     const clientWidth = document.documentElement.clientWidth;
     const clientHeight = document.documentElement.clientHeight;
     const marginDiv = 10;
-    let pause = 150;
+    let pause;
     let maxY;
 
     let troll = {
@@ -85,7 +85,7 @@
                 pause = 200;
                 break;
             case "Хардкор":
-                pause = 150;
+                pause = 185;
                 break;
             case "Кошмар":
                 pause = 0;
