@@ -2,7 +2,7 @@
     const clientWidth = document.documentElement.clientWidth;
     const clientHeight = document.documentElement.clientHeight;
     const marginDiv = 10;
-    let pause;
+    let pause = 200;
     let maxY;
 
     let troll = {
@@ -57,7 +57,6 @@
                 if (troll.trollTopY > clientHeight - trollRadius * 1.5) {
                     troll.trollTopY -= trollRadius * 1.5;
                 }
-                console.log(maxY);
                 if (troll.trollTopY < maxY) {
                     troll.trollTopY += maxY;
                 }
